@@ -36,7 +36,7 @@ else
   hash[genre] = 1
 end
 end
-genre_count
+hash
 
 end
 
