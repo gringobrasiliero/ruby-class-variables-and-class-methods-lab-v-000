@@ -28,8 +28,15 @@ def self.genres
 end
 
 def self.genre_count
-@@genres.uniq
-
+hash= {}
+@@genres.uniq.each do |genre|
+  if hash[genre] != nil
+hash[genre] += 1
+else
+  hash[genre] = 1
+end
+end
+genre_count
 
 end
 
