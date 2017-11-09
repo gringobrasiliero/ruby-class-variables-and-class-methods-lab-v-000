@@ -20,5 +20,3 @@ def self.count
 end
 
 end
-end
-end
