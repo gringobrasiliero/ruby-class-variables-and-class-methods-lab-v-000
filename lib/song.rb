@@ -37,7 +37,7 @@ else
 end
 end
 hash
-
+end
 
 def self.artist_count
   artHash = {}
@@ -51,7 +51,7 @@ def self.artist_count
   artHash
 
 
-end
+
 
 end
 
