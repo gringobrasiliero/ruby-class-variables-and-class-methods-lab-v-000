@@ -29,7 +29,7 @@ end
 
 def self.genre_count
 hash= {}
-@@genres.uniq.each do |genre|
+@@genres.each do |genre|
   if hash[genre] != nil
 hash[genre] += 1
 else
