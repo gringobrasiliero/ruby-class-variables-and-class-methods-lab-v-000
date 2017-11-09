@@ -29,7 +29,7 @@ end
 
 def self.genre_count
   hash= {}
-  if @@genres.uniq?
+  if @@genres.uniq
     hash << @@genres
 end
 
