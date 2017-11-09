@@ -38,6 +38,19 @@ end
 end
 hash
 
+
+def self.artist_count
+  artHash = {}
+  @@artists.each do |artists|
+    if artHash[artists] != nil
+      artHash[artists] += 1
+    else
+      artHash[artists] = 1
+    end
+  end
+  artHash
+
+
 end
 
 
